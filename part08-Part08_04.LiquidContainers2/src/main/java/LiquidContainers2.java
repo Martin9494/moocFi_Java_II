@@ -1,7 +1,6 @@
 
 
 import java.util.Scanner;
-import java.awt.Container;
 
 public class LiquidContainers2 {
 
