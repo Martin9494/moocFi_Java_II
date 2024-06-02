@@ -1,0 +1,229 @@
+course = "mooc-java-programming-ii"
+
+[exercises."part08-Part08_01.Cubes"]
+id = 87694
+checksum = "4d63abe63a4f6330d0c965763467d894"
+
+[exercises."part08-Part08_02.AverageOfPositiveNumbers"]
+id = 87695
+checksum = "8ed4bf0cca5acfa91e7dffc22b04d204"
+
+[exercises."part08-Part08_03.LiquidContainers"]
+id = 87696
+checksum = "3181aba3d30ba661a3dd84cb2833a8a2"
+
+[exercises."part08-Part08_04.LiquidContainers2"]
+id = 87697
+checksum = "7f6adac608ea18c192a92e4059bee4e3"
+
+[exercises."part08-Part08_05.TodoList"]
+id = 87698
+checksum = "c2fac7e29d65060ddf600227594a48ea"
+
+[exercises."part08-Part08_06.Nicknames"]
+id = 87699
+checksum = "dc9521a8165163b8cf2a5b08001adf9e"
+
+[exercises."part08-Part08_07.Abbreviations"]
+id = 87700
+checksum = "ae165c43cbd651aea95e072cc44602ae"
+
+[exercises."part08-Part08_08.PrintMeMyHashmap"]
+id = 87701
+checksum = "de54525fc151374134af140195af3ac3"
+
+[exercises."part08-Part08_09.PrintMeAnotherHashmap"]
+id = 87702
+checksum = "f2cbbf1c95dfbb3aaee17fbf077215a2"
+
+[exercises."part08-Part08_10.IOweYou"]
+id = 87703
+checksum = "bca630f5fc101f0446e193b20a6252ea"
+
+[exercises."part08-Part08_11.SameDate"]
+id = 87704
+checksum = "3e614f7bf34c8a76f3dae1b39c36ffe4"
+
+[exercises."part08-Part08_12.HashedDate"]
+id = 87705
+checksum = "826133e3cb9f1f9ea1a0b97e0afda7c1"
+
+[exercises."part08-Part08_13.VehicleRegistry"]
+id = 87706
+checksum = "a88983f88325b71782acfc400fd26edd"
+
+[exercises."part08-Part08_14.DictionaryOfManyTranslations"]
+id = 87707
+checksum = "269d6434dbcee609cf62ac99a5f5d274"
+
+[exercises."part08-Part08_15.StorageFacility"]
+id = 87708
+checksum = "f4156b4b462db1b643214001ab0fe321"
+
+[exercises."part09-Part09_01.ABC"]
+id = 87709
+checksum = "ca1955673d4236e491bef329526243a0"
+
+[exercises."part09-Part09_02.PersonAndSubclasses"]
+id = 87710
+checksum = "d9143bdbfbe5fbf3461daaef7057b782"
+
+[exercises."part09-Part09_03.Warehousing"]
+id = 87711
+checksum = "f24e392360ec95f9182e8374b793943c"
+
+[exercises."part09-Part09_04.DifferentKindsOfBoxes"]
+id = 87712
+checksum = "07dbb2bdc6bb69cdfbc0306d73c6089d"
+
+[exercises."part09-Part09_05.TacoBoxes"]
+id = 87713
+checksum = "c84e350c17cc86e8b13392468309a0fb"
+
+[exercises."part09-Part09_06.InterfaceInABox"]
+id = 87714
+checksum = "554cb02d6be9e0bf27ae80b05e91c7f8"
+
+[exercises."part09-Part09_07.ListAsAMethodParameter"]
+id = 87715
+checksum = "bb9a21365ed1e5f6ca5fad97d10c7469"
+
+[exercises."part09-Part09_08.MapAsAMethodParameter"]
+id = 87716
+checksum = "c303f6cbcba339b4525daceb71b4122e"
+
+[exercises."part09-Part09_09.SetAsMethodParameter"]
+id = 87717
+checksum = "f3f47d44326a302e67c2ea136a9e1da7"
+
+[exercises."part09-Part09_10.OnlineShop"]
+id = 87718
+checksum = "f5b01d03b816f4aa5e388a2b7cc7bd3f"
+
+[exercises."part09-Part09_11.Herds"]
+id = 87719
+checksum = "263f5d4917edfcaf00c95c4c873e35e4"
+
+[exercises."part09-Part09_12.Animals"]
+id = 87720
+checksum = "1eead9dbee0f1f03e1debb976847298d"
+
+[exercises."part10-Part10_01.AverageOfNumbers"]
+id = 87721
+checksum = "4cdf257cea2388956d99983f5f02760d"
+
+[exercises."part10-Part10_02.AverageOfSelectedNumbers"]
+id = 87722
+checksum = "d45538874c11be08803f983df130bdb7"
+
+[exercises."part10-Part10_03.PositiveNumbers"]
+id = 87723
+checksum = "ac46021317ed4d952cdd8b2e8609463e"
+
+[exercises."part10-Part10_04.Divisible"]
+id = 87724
+checksum = "40a9a7e9e8959390d82900c9c67654e1"
+
+[exercises."part10-Part10_05.PrintingUserInput"]
+id = 87725
+checksum = "ee9c045a0231fac9adf0a675b97bbec1"
+
+[exercises."part10-Part10_06.LimitedNumbers"]
+id = 87726
+checksum = "3bc84d53e374216555e61b9fe2c6ab18"
+
+[exercises."part10-Part10_07.UniqueLastNames"]
+id = 87727
+checksum = "c44237795db45c4265b0411136ac3017"
+
+[exercises."part10-Part10_08.Weighting"]
+id = 87728
+checksum = "9897d578f034c2f9468f342786e7e40f"
+
+[exercises."part10-Part10_09.ReadingFilesPerLine"]
+id = 87729
+checksum = "13ded15e76f2dcd1255f1604d939f16a"
+
+[exercises."part10-Part10_10.BooksFromFile"]
+id = 87730
+checksum = "7ea976300e2f71a5cd861a052a639b76"
+
+[exercises."part10-Part10_11.WageOrder"]
+id = 87731
+checksum = "ea9105e5f2ecb30d508c6f7ef84e1e41"
+
+[exercises."part10-Part10_12.StudentsOnAlphabeticalOrder"]
+id = 87732
+checksum = "8f7b561d7d7a1168fa52ea86969269f0"
+
+[exercises."part10-Part10_13.LiteracyComparison"]
+id = 87733
+checksum = "15973313c58a0a868631db439b35760a"
+
+[exercises."part10-Part10_14.Literature"]
+id = 87734
+checksum = "88d15046b3988c88eef3636f823ecdf8"
+
+[exercises."part10-Part10_15.RegularExpressions"]
+id = 87735
+checksum = "11cfe652ab6cc1155a66701c0e66aa47"
+
+[exercises."part10-Part10_16.EnumAndIterator"]
+id = 87736
+checksum = "6593623f1328656dda405073d5070d6b"
+
+[exercises."part10-Part10_17.SortThemCards"]
+id = 87737
+checksum = "6301cfe4dc2ad2348130b131e4f913a1"
+
+[exercises."part11-Part11_01.Customer"]
+id = 87738
+checksum = "aae56493ee5226e4a760bdcfea5fd658"
+
+[exercises."part11-Part11_02.ABookAndAPlane"]
+id = 87739
+checksum = "a6497e6628fa0219c718ee893d282dd1"
+
+[exercises."part11-Part11_03.ShowAndTicket"]
+id = 87740
+checksum = "a796a368861889d060ea3b1e69c1c058"
+
+[exercises."part11-Part11_04.StudentAndUniversity"]
+id = 87741
+checksum = "6e76bdab2095be8d02a1b603c54061df"
+
+[exercises."part11-Part11_05.ThePlayerAndTheBot"]
+id = 87742
+checksum = "efd1177efee4cfc9a4ca6c665f0858ee"
+
+[exercises."part11-Part11_06.SaveablePerson"]
+id = 87743
+checksum = "6be4be28d0bcd3e4c10e6fa8e9888e40"
+
+[exercises."part11-Part11_07.BiggerClassDiagram"]
+id = 87744
+checksum = "8285b18d1110c94fae521aebaf9a5828"
+
+[exercises."part11-Part11_08.FirstPackages"]
+id = 87745
+checksum = "7d45f54869c8c5d19a39459e0a7677cc"
+
+[exercises."part11-Part11_09.TheThreePackages"]
+id = 87746
+checksum = "80dacf2798bbc4ca663bb53a3329ead1"
+
+[exercises."part11-Part11_10.FlightControl"]
+id = 87747
+checksum = "2c9c2067f1f3e9f7c1eea46e8936bddf"
+
+[exercises."part11-Part11_11.ValidatingParameters"]
+id = 87748
+checksum = "59de4473d46a5d3983553a12f7d11fba"
+
+[exercises."part11-Part11_12.SensorsAndTemperature"]
+id = 87749
+checksum = "3d99c815b692e1ef313e022c08f86ecc"
+
+[exercises."part11-Part11_13.SaveableDictionary"]
+id = 87750
+checksum = "b269adc6891e3bfecf661bc878856a99"
