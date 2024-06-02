@@ -10,6 +10,18 @@ public class Container {
         this.limit = 100;
     }
 
+
+    public Container(){
+        this.name = "";
+        this.liquit = 0;
+        this.limit = 100;
+    }
+
+    public int contains(){
+        return this.liquit;
+    }
+
+
     public void add(int amount){
         if(amount < 0){
 
@@ -52,7 +64,7 @@ public class Container {
 
     @Override
     public String toString(){
-        return this.name+": "+this.liquit+"/"+this.limit;
+        return this.liquit+"/"+this.limit;
     }
 
 }

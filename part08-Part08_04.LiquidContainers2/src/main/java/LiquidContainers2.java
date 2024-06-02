@@ -13,8 +13,8 @@ public class LiquidContainers2 {
         
 
         while (true) {
-            System.out.println(container1);
-            System.out.println(container2);
+            System.out.println("First: "+container1);
+            System.out.println("Second: " +container2);
 
             String input = scan.nextLine();
             if (input.equals("quit")) {
