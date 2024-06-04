@@ -1,5 +1,4 @@
 
-import java.util.Objects;
 
 public class LicensePlate {
     // don't modify existing parts of this class
@@ -17,6 +16,29 @@ public class LicensePlate {
     @Override
     public String toString() {
         return country + " " + liNumber;
+    }
+    @Override
+    public boolean equals(Object object){
+        if(this == object){
+            return true;
+        }
+        if(!(object instanceof LicensePlate)){
+            return false;
+        }
+
+        LicensePlate licensePlate = (LicensePlate) object;
+
+        if(this.liNumber.equals(licensePlate.liNumber)&&
+        this.country.equals(licensePlate.country)){
+            return true;
+        }
+        return false;
+    }
+    
+
+    @Override
+    public int hashCode(){
+        return this.liNumber.hashCode() + this.country.hashCode();
     }
 
 }

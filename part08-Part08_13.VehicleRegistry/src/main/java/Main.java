@@ -3,33 +3,46 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 
+
+
 public class Main {
 
     public static void main(String[] args) {
-        // the following is the same sample program shown in ex 8.13 description
         
-        LicensePlate li1 = new LicensePlate("FI", "ABC-123");
-        LicensePlate li2 = new LicensePlate("FI", "UXE-465");
-        LicensePlate li3 = new LicensePlate("D", "B WQ-431");
+        ArrayList<LicensePlate> licensePlates = new ArrayList<>();
+        VehicleRegistry vehicleRegistry = new VehicleRegistry();
 
-        ArrayList<LicensePlate> finnishPlates = new ArrayList<>();
-        finnishPlates.add(li1);
-        finnishPlates.add(li2);
+        LicensePlate first = new LicensePlate("Germany", "DEBBGG");
+        LicensePlate secound = new LicensePlate("Germany", "HHFFKK");
+        licensePlates.add(first);
+        licensePlates.add(secound);
 
-        LicensePlate newLi = new LicensePlate("FI", "ABC-123");
-        if (!finnishPlates.contains(newLi)) {
-            finnishPlates.add(newLi);
+        String firstDriver = "Steven";
+        String secondDriver = "Ellen";
+
+        HashMap<LicensePlate, String> hashMap = new HashMap<>();
+        hashMap.put(first, firstDriver);
+        hashMap.put(secound, secondDriver);
+
+
+        for (LicensePlate licensePlate : hashMap.keySet()) {
+            if(vehicleRegistry.add(licensePlate, hashMap.get(licensePlate))){
+                System.out.println("Added correctly");
+            }else{
+                System.out.println("Problem occured");
+            }
         }
-        System.out.println("Finnish: " + finnishPlates);
-        // if the equals-method hasn't been overwritten, the same license number will be added to the list againg
+       
+        vehicleRegistry.printOwners();
+        vehicleRegistry.printLicensePlates();
+        vehicleRegistry.remove(first);
+        vehicleRegistry.printOwners();
+        vehicleRegistry.printLicensePlates();
+        System.out.println("next:");
+        System.out.println(vehicleRegistry.get(secound));
+        ;
         
-        HashMap<LicensePlate, String> owners = new HashMap<>();
-        owners.put(li1, "Arto");
-        owners.put(li3, "Jürgen");
+        
 
-        System.out.println("owners:");
-        System.out.println(owners.get(new LicensePlate("FI", "ABC-123")));
-        System.out.println(owners.get(new LicensePlate("D", "B WQ-431")));
-        // if the hasCode-method hasn't been overwritten, the owners won't be found
     }
 }
