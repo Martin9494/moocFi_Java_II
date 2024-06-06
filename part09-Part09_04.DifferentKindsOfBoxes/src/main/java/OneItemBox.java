@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class OneItemBox extends Box {
 
-    ArrayList<Item> itemList;
+    private ArrayList<Item> itemList;
 
     public OneItemBox(){
         this.itemList = new ArrayList<>();
