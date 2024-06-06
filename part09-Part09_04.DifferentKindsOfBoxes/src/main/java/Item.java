@@ -1,4 +1,6 @@
 
+
+
 public class Item {
 
     private String name;
@@ -19,6 +21,28 @@ public class Item {
 
     public int getWeight() {
         return weight;
+    }
+    
+    @Override
+    public boolean equals(Object object){
+        if(this == object){
+            return true;
+        }
+        if(!(object instanceof Item)){
+            return false;
+        }
+
+        Item itemInstance = (Item) object;
+
+        if(this.getName().equals(itemInstance.getName())){
+            return true;
+        }
+
+        return false;
+    }
+    @Override
+    public int hashCode(){
+        return this.getName().hashCode();
     }
 
 }
