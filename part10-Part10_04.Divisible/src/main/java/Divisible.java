@@ -14,12 +14,15 @@ public class Divisible {
 
         ArrayList<Integer> divisible = divisible(numbers);
 
-        divisible.stream()
-                .forEach(luku -> System.out.println(luku));
+        divisible.stream().forEach(num -> System.out.println(num));
     }
 
     public static ArrayList<Integer> divisible(ArrayList<Integer> numbers) {
-        return new ArrayList<>();
+        numbers = numbers
+        .stream()
+        .filter(n -> n % 2 == 0 || n % 3 == 0 || n % 5 == 0)
+        .collect(Collectors.toCollection(ArrayList::new ));
+        return numbers;
     }
 
 }
