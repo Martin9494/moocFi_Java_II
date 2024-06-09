@@ -1,6 +1,8 @@
 
 
 
+
+
 public class Person {
 
     private String firstName;
@@ -24,5 +26,12 @@ public class Person {
     public int getBirthYear() {
         return birthYear;
     }
+
+    @Override
+    public String toString() {
+        return this.firstName +" "+ this.lastName+" "+this.birthYear;
+    }
+
+    
 
 }
