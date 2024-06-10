@@ -29,4 +29,8 @@ public class Book {
         return pageCount;
     }
 
+    public String toString(){
+        return  this.name +" " +this.publishingYear + " " + this.pageCount + " " + this.author;
+    }
+
 }
