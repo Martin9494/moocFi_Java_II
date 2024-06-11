@@ -23,7 +23,7 @@ public class Suitcase {
         int summa = 0;
         int indeksi = 0;
         while (indeksi < this.Items.size()) {
-        summa += this.Items.get(indeksi).getweight();
+        summa += this.Items.get(indeksi).getWeight();
         indeksi++;
         }
         return summa;
