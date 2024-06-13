@@ -10,5 +10,9 @@ public class Place {
     public String getPlace() {
         return place;
     }
+    
+    public String toString(){
+        return this.place;
+    }
 
 }

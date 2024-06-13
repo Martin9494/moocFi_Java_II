@@ -25,7 +25,7 @@ public class Flight {
     
     @Override
     public String toString(){
-        return this.getAirplane() + " ("+this.getAirplane().getCapacity()+" capacity) "+"("+this.getStartPlace()+"-"+this.getDestinationPlace()+")";
+        return this.getAirplane()+" ("+this.getStartPlace()+"-"+this.getDestinationPlace()+")";
     }
 
     

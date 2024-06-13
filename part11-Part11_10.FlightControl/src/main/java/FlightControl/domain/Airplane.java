@@ -19,7 +19,7 @@ public class Airplane {
     }
 
     public String toString(){
-        return this.getID()+" ("+this.getCapacity()+")";
+        return this.getID()+" ("+this.getCapacity()+" capacity)";
     }
 
     

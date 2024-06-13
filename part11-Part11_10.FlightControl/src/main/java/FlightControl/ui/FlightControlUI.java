@@ -50,7 +50,7 @@ public class FlightControlUI implements IFlightControlUI{
 
     @Override
     public void printFlights() {
-        System.out.println(airportAssetControl.getAllFlights());
+        airportAssetControl.getAllFlights().stream().forEach(n -> System.out.println(n));
     }
 
     @Override
