@@ -1,9 +1,11 @@
 package FlightControl.ui;
 
-public interface ITextUI {
+public interface IAirportAssetControlUI {
 
-    void start();
-    
+    void startAirportAssetControlUI();
+    void addAirplane();
+    void addFlight();
+    void exitAirportAssetControlUI();
     
 
 }
