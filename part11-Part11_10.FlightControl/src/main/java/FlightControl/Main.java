@@ -3,7 +3,6 @@ package FlightControl;
 import java.util.Scanner;
 
 import FlightControl.logic.AirportAssetControl;
-import FlightControl.logic.FlightControl;
 import FlightControl.ui.AirportAssetControlUI;
 import FlightControl.ui.FlightControlUI;
 
