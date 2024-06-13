@@ -5,6 +5,6 @@ public interface IFlightControlUI {
     void printAirplanes();
     void printFlights();
     void printAirplaneDetails();
-    void endFlightControlUI();
+    void exitFlightControlUI();
 
 }

@@ -16,8 +16,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         AirportAssetControl airportAssetControl = new AirportAssetControl();
         AirportAssetControlUI airUI = new AirportAssetControlUI(airportAssetControl,scanner);
-        FlightControl flightControl = new FlightControl();
-        FlightControlUI flyUI = new FlightControlUI();
+        FlightControlUI flyUI = new FlightControlUI(airportAssetControl, scanner);
         while (true) { 
             System.out.println("Choose an action:");
             System.out.println("[1] Airport Asset Control");
