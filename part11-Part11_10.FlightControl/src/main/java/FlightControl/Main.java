@@ -26,7 +26,7 @@ public class Main {
             if(desci.equals("1")){
                 airUI.startAirportAssetControlUI();
             }else if(desci.equals("2")){
-                // flyUI.startFlightControlUI();
+                flyUI.startFlightControlUI();
             }else if(desci.equals("X")){
                 break;
             }else{

@@ -1,5 +1,6 @@
 package FlightControl.logic;
 
+import java.util.Collection;
 import java.util.HashMap;
 
 import FlightControl.domain.Airplane;
@@ -32,6 +33,14 @@ public class AirportAssetControl {
 
     //get all airplanes
     //get all flights
+    public Collection getAllAirplains(){
+        return allAirplanes.values();
+    }
+
+    public Collection getAllFlights(){
+        return allFlights.values();
+    }
+
     //get specific airplane
 
     public Airplane getAirplane(String name){
